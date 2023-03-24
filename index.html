@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Shop - A sua loja de games</title>
+<!-- Abaixo segue a importacao do arquivo css e as fonts do google fonts -->
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--O codigo e divido em section e containers para ser estilizado mais facilmente-->
+    <header>
+        <div class="container">
+            <h1>The last of US</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre o jogo</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Acesso antecipado</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div>
+                <h2>O Jogo</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro eaque quas hic, eligendi et nobis dolores. Nostrum, ab! Sequi nulla dicta tenetur deleniti. Ducimus cum delectus dolores perspiciatis laborum ex.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro eaque quas hic, eligendi et nobis dolores. Nostrum, ab! Sequi nulla dicta tenetur deleniti. Ducimus cum delectus dolores perspiciatis laborum ex.
+                </p>
+                <ul class="brands-list">
+                    <li><img src="./images/playstation.png" alt="Playstation"></li>
+                    <li><img src="https://icon-library.com/images/pc-game-icon/pc-game-icon-6.jpg" alt="PC"></li>
+                </ul>
+            </div>
+            <video width="740" height="380" controls>
+                <source src="/images/The Last Of Us - Trailer Oficial Português.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <img class="gamepaper" src="./images/The_Last_of_Us_capa.png" alt="loja">
+            <div>
+                <h2>Considerado um dos melhores games ja feito</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro eaque quas hic, eligendi et nobis dolores. Nostrum, ab! Sequi nulla dicta tenetur deleniti. Ducimus cum delectus dolores perspiciatis laborum ex.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro eaque quas hic, eligendi et nobis dolores. Nostrum, ab! Sequi nulla dicta tenetur deleniti. Ducimus cum delectus dolores perspiciatis laborum ex.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Receba o acesso antecipado</h3>
+                    <p>
+                        Deixe seu contato para receber o acesso antecipado antes do lançamento para PC
+                    </p>
+                    <form>
+                        <!-- O required transforma o campo em obrigatorio-->
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="text" placeholder="Seu email" required/>
+                        <input type="text" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>       
+                    <h3>acompanhe o game </h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.instagram.com/thelastofus/" target="_blank"><img src="/images/instagram.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=kE7li_u1nmg" target="_blank"><img src="/images/yout.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/TheLastOfUsBR/?locale=pt_BR" target="_blank"><img src="/images/facebook.png"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>em breve... 28 de março.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Jones Steam . Todos os direitos reservados . 2022
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
